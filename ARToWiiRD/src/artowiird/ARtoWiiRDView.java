@@ -215,7 +215,7 @@ import javax.swing.LayoutStyle;
 /* 212:    */   @Action
 /* 213:    */   public void Convert()
 /* 214:    */   {
-/* 215:192 */     this.jTextPane2.setText("REMEMBER: When you Convert\r\nthese codes YOU DO NOT GET\r\nCREDIT FOR THE CODE, it's \r\nthe EXACT SAME CODE that it\r\nwas for GameCube AR which a\r\nhacker spent his/her time \r\non creating!!\r\n");
+/* 215:192 */     //this.jTextPane2.setText("REMEMBER: When you Convert\r\nthese codes YOU DO NOT GET\r\nCREDIT FOR THE CODE, it's \r\nthe EXACT SAME CODE that it\r\nwas for GameCube AR which a\r\nhacker spent his/her time \r\non creating!!\r\n");
 /* 216:    */     
 /* 217:    */ 
 /* 218:    */ 
@@ -984,7 +984,7 @@ import javax.swing.LayoutStyle;
 /* 976:891 */     if (i == EndConditional) {
 /* 977:892 */       this.jTextPane2.setText(this.jTextPane2.getText() + "E2000001 80008000\r\n");
 /* 978:    */     }
-/* 979:893 */     this.jTextPane2.setText(this.jTextPane2.getText() + "REMEMBER: When you Convert\r\n" + "these codes YOU DO NOT GET\r\n" + "CREDIT FOR THE CODE, it's \r\n" + "the EXACT SAME CODE that it\r\n" + "was for GameCube AR which a\r\n" + "hacker spent his/her time \r\n" + "on creating!!\r\n");
+/* 979:893 */     //this.jTextPane2.setText(this.jTextPane2.getText() + "REMEMBER: When you Convert\r\n" + "these codes YOU DO NOT GET\r\n" + "CREDIT FOR THE CODE, it's \r\n" + "the EXACT SAME CODE that it\r\n" + "was for GameCube AR which a\r\n" + "hacker spent his/her time \r\n" + "on creating!!\r\n");
 /* 980:    */   }
 /* 981:    */   
 /* 982:    */   @Action
