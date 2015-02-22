@@ -837,10 +837,15 @@ import javax.swing.LayoutStyle;
 /* 834:768 */                   this.jTextPane2.setText(this.jTextPane2.getText() + "E2000001 80008000\r\n");
 /* 835:    */                 }
 /* 836:    */               }
-/* 837:770 */               else if ((charline[0] == '8') && (charline[1] >= '0') && (charline[1] <= '7'))
+/* 837:770 */               else if ((charline[0] == '8') && (charline[1] >= '0') && (charline[1] <= '5'))
 /* 838:    */               {
-/* 839:772 */                 this.jTextPane2.setText(this.jTextPane2.getText() + "No WiiRD CodeType for GCN AR CodeType- Increment.\r\n");
+/* 839:772 */                 this.jTextPane2.setText(this.jTextPane2.getText() + "Increment is not fully implemented yet.\r\n");
 /* 840:    */               }
+							else if ((charline[0] == '8') && (charline[1] >= '6') && (charline[1] <= '7'))
+							{
+								this.jTextPane2.setText(this.jTextPane2.getText() + "80000000 8" + (char)(charline[1] - '6' + '0') + line.substring(2, 8) + "\r\n");
+								this.jTextPane2.setText(this.jTextPane2.getText() + "86910000 " + line.substring(9, 17) + "\r\n");
+							}
 /* 841:774 */               else if ((charline[1] == '2') || (charline[1] == '3'))
 /* 842:    */               {
 /* 843:776 */                 if (charline[1] == '2') {
